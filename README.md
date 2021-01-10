@@ -19,8 +19,6 @@ Sannidhi Jalukar, Software Engineer, Pivotal
 Madhura Bhave,  Software Engineer, Pivotal
 ```
 
-Rewritten in JUnit5
-
 Timeline:
 
 - [5:00](https://youtu.be/s9vt6UJiHg4?t=300) Integration test
@@ -33,5 +31,9 @@ Timeline:
 
 ---
 
+Rewritten in JUnit5 + Extended with RestDocumentation
 
+---
+
+P8Z
 

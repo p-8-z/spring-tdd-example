@@ -2,7 +2,6 @@
 <project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xmlns="http://maven.apache.org/POM/4.0.0"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <artifactId>tdd-top-to-bottom</artifactId>
   <build>
     <plugins>
       <plugin>
@@ -46,53 +45,54 @@
   </build>
   <dependencies>
     <dependency>
+      <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-data-jpa</artifactId>
-      <groupId>org.springframework.boot</groupId>
     </dependency>
     <dependency>
+      <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-validation</artifactId>
-      <groupId>org.springframework.boot</groupId>
     </dependency>
     <dependency>
+      <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-web</artifactId>
-      <groupId>org.springframework.boot</groupId>
     </dependency>
     <dependency>
-      <artifactId>h2</artifactId>
       <groupId>com.h2database</groupId>
+      <artifactId>h2</artifactId>
       <scope>runtime</scope>
     </dependency>
 
     <dependency>
+      <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-devtools</artifactId>
-      <groupId>org.springframework.boot</groupId>
-      <optional>true</optional>
       <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <artifactId>lombok</artifactId>
-      <groupId>org.projectlombok</groupId>
       <optional>true</optional>
     </dependency>
     <dependency>
-      <artifactId>spring-boot-starter-test</artifactId>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
       <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-test</artifactId>
       <scope>test</scope>
     </dependency>
     <dependency>
-      <artifactId>spring-restdocs-mockmvc</artifactId>
       <groupId>org.springframework.restdocs</groupId>
+      <artifactId>spring-restdocs-mockmvc</artifactId>
       <scope>test</scope>
     </dependency>
 
     <!--  added after initializr, enable BDDMockito   -->
     <dependency>
-      <artifactId>mockito-core</artifactId>
       <groupId>org.mockito</groupId>
+      <artifactId>mockito-core</artifactId>
       <version>3.7.0</version>
     </dependency>
   </dependencies>
   <description>Demo project for Spring Boot</description>
+  <artifactId>tdd-top-to-bottom</artifactId>
   <groupId>sk.p8z</groupId>
   <modelVersion>4.0.0</modelVersion>
   <name>tdd-top-to-bottom</name>

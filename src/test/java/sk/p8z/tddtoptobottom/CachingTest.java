@@ -15,6 +15,9 @@ import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
 import sk.p8z.tddtoptobottom.domain.Car;
 
+/**
+ * 5.
+ */
 @ExtendWith(SpringExtension.class)
 @SpringBootTest(webEnvironment = WebEnvironment.NONE)
 @AutoConfigureTestDatabase
